@@ -1,0 +1,369 @@
+*{
+    padding:0px;
+    margin: 0px;
+
+}
+body{
+    width: 100%;
+
+}
+.fa-trade-federation{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    border: 1px solid transparent;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 10px 10px 30px grey;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#cartIcon{
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    position: relative;
+    top: 2px;
+    left: 0px;
+    cursor: pointer;
+}
+.main_menu{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.item li{
+    width: 25%;
+}
+li a{
+    text-decoration: none;
+    font-size: larger;
+    padding-bottom: 10px;
+    color: rgba(0,0,0,0.9);
+    transition: all 0.4s;
+}
+li a:hover{
+    color: rgba(0,0,0,0.4);
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+li a:visited{
+    color: rgba(0,0,0,0.4);
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+.mb_front{
+    width: 100%;
+    height: 650px;
+    background-image:url(mix/mix1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mb_product{
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    width:100%px;
+   height: 250px;
+}
+.product1{
+
+width: 650px;
+text-align: center;
+padding: 25px 15px;
+border: 1px solid lightslategray;
+box-shadow: 10px 10px 15px lightgray;
+}
+.product1:hover{
+
+    width: 650px;
+    text-align: center;
+    padding: 23px 13px;
+    box-shadow: 20px 20px 10px lightgray;
+}
+h3{
+    padding: 5px 0;
+    margin: 0 75px;
+    
+
+}
+
+.mb_product2{
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.product2{
+
+    width: 400px;
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid lightslategray;
+    box-shadow: 10px 10px 15px lightgray;
+}
+.product2:hover{
+
+    width: 400px;
+    text-align: center;
+    padding: 23px 13px;
+    box-shadow: 20px 20px 10px lightgray;
+}
+h3{
+    padding: 5px 0;
+    margin: 0 30px;
+
+
+}
+
+
+.product3{
+    text-align: center;
+    padding: 50px 50px;
+}
+.product3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.Sugested_box{
+    box-shadow:-2px -2px 20px grey ;
+}
+.sugestedproduct{
+    width:23%;
+    min-width: 180px;
+    padding: 10px 12px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: all 0.3s;
+   
+    
+}
+.sugestedproduct:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+.sugestedproduct img{
+    width: 100%;
+    border-radius: 20px;
+}
+.description{
+    text-align: start;
+    padding: 10px 50px 0 20px;
+}
+span{
+    font-size: 15px;
+}
+h5{
+    font-size: 15px;
+    color: grey;
+}
+h4{
+    font-size: 15px;
+    color: red;
+}
+.fa-cart-shopping{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    line-height: 40px;
+    background-color: rgb(255, 161, 47);
+    color: orangered;
+    box-sizing: border-box;
+    padding-top: 10px;
+    position: relative;
+    bottom:40px;
+    left:100px;
+}
+.sidebar{
+    width: 19%;
+    height: 100%;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.product8{
+    text-align: center;
+    padding: 50px 0px;
+}
+.product8{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.Product_box{
+    width: 80%;
+    float: right;
+    z-index: -1;
+}
+.Mobileproduct{
+    width:20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: all 0.3;
+    
+}
+.Mobileproduct:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+.Mobileproduct img{
+    width: 100%;
+    border-radius: 20px;
+}
+.description{
+    text-align: start;
+    padding: 10px 50px 0 20px;
+}
+span{
+    font-size: 15px;
+}
+h5{
+    font-size: 15px;
+    color: grey;
+}
+h4{
+    font-size: 15px;
+    color: red;
+}
+.fa-cart-shopping{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    line-height: 40px;
+    background-color: rgb(255, 161, 47);
+    color: orangered;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    bottom:30px;
+    left:100px;
+}
+.cart{
+    position: fixed;
+    z-index: 10;
+    top: 60px;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color:white;
+    box-shadow: 2px 0 4px grey;
+    transition: 0.3s;
+}
+.cart-title{
+    text-align: center;
+}
+.cart-box
+{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.cart-img{
+    width: 50px;
+    height: 50px;
+}
+.detail-box{
+    display: grid;
+    row-gap: 10px;
+}
+.cart-product-title{
+    font-size:15px ;
+    text-transform: uppercase;
+}
+.cart-quantity{
+    border: 1px solid red;
+    outline-color:lightcoral ;
+    width: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.btn-buy{
+    display: flex;
+    margin: 15px auto 0 auto;
+    padding:12px 20px ;
+    cursor: pointer;
+    background-color: rgb(224, 80, 80);
+    color: white;
+}
+.fa-xmark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.fa-trash{
+    font-size: 15px;
+    cursor: pointer;
+}
+.cart.active{
+    right: 0;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+li{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 100px 20px 100px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    background-color: rgb(182, 178, 178);
+}
+.footer a{
+    color:white;
+}
+.footer a:hover{
+    color:rgb(70, 65, 65);
+}
+.sugestion_title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+.active{
+    color: red;
+}
