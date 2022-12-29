@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <i class="fa-brands fa-trade-federation">TechGadgets</i>
+        <div>
+            <ul class="main_menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Mobile.html">Mobile</a></li>
+                <li><a href="laptop.html">Laptop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+            </ul>
+
+        </div>
+    </section>
+    <Form class="contactform" method="post">
+        <Label>First Name</Label> <br>
+        <input type="text" name="fname" id="101fname" placeholder="example usman" class="form_box"><br>
+        <Label>Last Name</Label> <br>
+        <input type="text" name="Lname" id="101lname" placeholder="example khan" class="form_box"><br>
+        <Label>Phone Number</Label><br>
+        <input type="number" name="Pnumber" id="102Pnumber" placeholder="example 0300 0000000" class="form_box"><br>
+        <label>Email</label><br>
+        <input type="email" name="email" id="103email" placeholder="example fk514955@gamil.com"  class="form_box"><br>
+        <button class="submit" onclick="submit()">Submit</button>
+    </Form>
+    <section class="footer">
+        <div class="colume1">
+        <h2>About Us</h2>
+        <p>TechGadgets is multipurpose website <br> This website provide all gadgets you <br> need in daily life</p>
+        </div>
+        <div class="colume2">
+            <h2>Contact Us</h2>
+            <p>Please Contact Us at <br><i class="fa-regular fa-envelope"></i> fk514955@gmail.com <br> <i class="fa-solid fa-phone"></i> 0309 9715231 </p>
+            </div>
+            <div class="colume3">
+                <h2>Use Fullink</h2>
+                <a href="index.html">Home</a><br>
+                <a href="Mobile.html">Mobile</a> <br>
+                <a href="laptop.html">Laptop</a><br>
+                <a href="contact.html">Contact Us</a><br>
+                </div>
+       </section>
+    <script>
+        var clicks=document.getElementsByClassName('submit')
+       if(clicks==onclick()){
+        alert("->Your Form has been submited We will Contact you Soon<-");
+       }
+   
+    </script>
+</body>
+</html>
